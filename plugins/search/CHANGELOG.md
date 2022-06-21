@@ -1,5 +1,19 @@
 # @backstage/plugin-search
 
+## 0.9.1-next.1
+
+### Patch Changes
+
+- 509c4092f0: To allow people to use a global search context in the search modal, the code for the search modal has been changed to only create a local search context if there is no parent context already defined.
+
+  If you want to continue using a local context even if you define a global one, you will have to wrap the modal in a new local context manually:
+
+  ```tsx
+  <SearchContextProvider>
+    <SearchModal toggleModal={toggleModal} />
+  </SearchContextProvider>
+  ```
+
 ## 0.9.1-next.0
 
 ### Patch Changes

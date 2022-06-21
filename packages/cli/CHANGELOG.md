@@ -1,5 +1,11 @@
 # @backstage/cli
 
+## 0.17.3-next.1
+
+### Patch Changes
+
+- e661242844: Updated dependency `run-script-webpack-plugin` to `^0.1.0`.
+
 ## 0.17.3-next.0
 
 ### Patch Changes
